@@ -12,6 +12,8 @@ import { AppRoutingModule } from '../app-routing.module';
 // 0 tambien se puede importar RouterModule de @angular/router e importarlo
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { ComponentsModule } from '../components/components.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
 
   exports: [
@@ -29,7 +33,10 @@ import { ComponentsModule } from '../components/components.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
+
   ],
 
   imports: [ 
